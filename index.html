@@ -8,14 +8,65 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <link rel="stylesheet" href="style.css">
+        <style>
+            a {
+                color: white;
+            }
+
+            ul { 
+                list-style: none;
+            }
+
+            footer {
+                background-color: #131622;
+                color: white;
+                text-align: center;
+                background: linear-gradient(to bottom, #284e7a, #000 100%);
+                padding: 60px 0;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            footer p {
+                text-transform: uppercase;
+                font-size: 16px;
+                color: rgba(255, 255, 255, .6);
+                margin-bottom: 10px;
+            }
+
+            footer ul {
+                margin-bottom: 25px;
+                display: flex;
+                flex-direction: row;
+            }
+
+            footer ul li {
+                margin: 0 8px;
+            }
+
+            footer ul li a {
+                font-size: 36px;
+                cursor: pointer;
+            }
+
+            @media(max-width: 800px){
+                footer {
+                    padding: 80px 15px;
+                }
+            }
+            
+
+        </style>
     </head>
     <body>
         <footer>
             <ul>
                 <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
                 <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
             </ul>
             <p>&copy; <script>document.write(new Date().getFullYear());</script> It sure is fun create websites.</p>
             <p>&ldquo;Tell me and I forget, teach me and I may remember, involve me and I learn.&rdquo; 
