@@ -9,6 +9,36 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <link rel="stylesheet" href="style.css">
         <style>
+            #about {
+                padding: 10px;
+                background-color: #f7f7f7;
+                margin-bottom: 20px;
+            }
+
+            #two-cols {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .about-img {
+                border: 4px solid #2196f3;
+                background-color: #2196f3;
+            }
+
+            .about-bio {
+                width: 65%;
+                max-width: 800px;
+                line-height: 2;
+                margin-left: 20px;
+            }
+
+            @media(max-width: 600px;){
+                #about, #two-cols{
+                    
+                }
+            }
 
         </style>
     </head>
@@ -19,7 +49,18 @@
             <h3>Breathtaking Landscapes for Your Viewing Pleasure</h3>
             <a href="https://academy.zenva.com/?zva_src=zenva-homepage" class="btn" target="_blank">More Zenva Courses</a>
         </div>
-
+        <!-- ************************************** -->
+        <div id="about">
+            <h3 class="title">About Me</h3>
+            <div id="two-cols">
+                <div class="about-img"><img src="img/about.jpg" alt="thumbs up"></div>
+                <div class="about-bio">
+                    <p>Silent movie fanatic, skateboarder, bottle cap collector, hand letterer and art school grad. Holistic content curator branding thought responsive leadership. Maker at the sweet spot between simplicity and intellectual purity to answer design problems with honest solutions. I work with Fortune 500 companies and startups at the junction of art and computer science to give life to your brand.</p>
+                 </div>
+            </div>
+            <hr>
+            <p>&nbsp;</p>
+        </div>
         <!-- ************************************** -->
         <footer>
             <ul>
