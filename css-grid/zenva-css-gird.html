@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="veiwport" content="width=device-width, initial-scale=1">
+        <title>Grid Layout</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            header h1 {
+                font-size: 3.25em;
+                text-align: center;
+                color: white;
+                margin-bottom: 20px;
+                text-shadow: 2px 2px #22638e;
+            }
+
+            .options {
+                width: 95%;
+                background-color: white;
+                padding: 10px;
+                border-top: 3px solid #3498db;
+                border-radius: 3px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .options-link {
+                text-decoration: none;
+                font-size: 0.9em;
+                color: #3498db;
+            }
+
+            .options-link:hoover {
+                color: darkgreen;
+                text-decoration: underline;
+            }
+
+            .card {
+                background-color: #9ebcf5;
+            }
+
+        </style>
+    </head>
+    <body>
+           <main id="container">
+               <header>
+
+                <h1>CSS Grid Layout</h1>
+               </header>
+               <nav>
+                <nav class="options">
+                    <a href="https://zenva.com" target="_blank" class="options-link">Home</a>
+                    <a href="https://academy.zenva.com/product-category/english/app-development/" target="_blank" class="options-link">Build Apps</a>
+                    <a href="https://academy.zenva.com/product-category/english/game-development/?zva_src=zenva-homepage-game" target="_blank" class="options-link">Build Games</a>
+                    <a href="https://academy.zenva.com/product-category/english/web-development/?zva_src=zenva-homepage-web" target="_blank" class="options-link">Build Websites</a>
+                  </nav>
+               </nav>
+               <div class="card" id="login">
+                   <h2 class="card-title">LOG-IN</h2>
+               </div>
+               <div class="card" id="enhance_your_career">
+                <h2 class="card-title">Enhance Your Career</h2>
+               </div>
+               <div class="card" id="important-stats">
+                <h2 class="card-title">Important Stats</h2>
+               </div>
+               <div class="card-blue" id="build_apps">
+                <h2 class="card-title">Build Apps</h2>
+               </div>
+               <div class="card-blue" id="build_games">
+                <h2 class="card-title">Build Games</h2>
+               </div>
+               <div class="card-blue" id="build-websites">
+                <h2 class="card-title">Build Websites</h2>
+               </div>
+               <footer><img src="images/logo.png" alt="Zenva logo"></footer>
+           </main>
+    </body>
+</html>

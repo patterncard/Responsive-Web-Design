@@ -22,37 +22,32 @@ nav {
 
 #login {
     grid-area: login;
-    background-color: red;
 }
 
 #enhance_your_career {
     grid-area: enhance_your_career;
-    background-color: blue;
 }
 
 #important-stats {
     grid-area: important-stats;
-    background-color: green;
 }
 
 #build_apps {
     grid-area: build_apps;
-    background-color: olive;
 }
 
 #build_games {
     grid-area: build_games;
-    background-color: chocolate;
 }
 
 #build-websites {
     grid-area: build-websites;
-    background-color: mediumaquamarine;
 }
 
 footer {
     grid-area: footer;
-    background-color: crimson;
+    margin: 20px 0;
+    text-align: center;
 }
 
 @media screen and (min-width:1100px){
