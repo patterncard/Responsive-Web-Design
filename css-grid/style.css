@@ -44,6 +44,50 @@ nav {
     grid-area: build-websites;
 }
 
+header h1 {
+    font-size: 3.25em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #22638e;
+}
+
+.options {
+    width: 95%;
+    background-color: white;
+    padding: 10px;
+    border-top: 3px solid #3498db;
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.options-link {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #3498db;
+}
+
+.options-link:hoover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.card-blue {
+    background-color: #9ebcf5;
+}
+
+.card-card-title {
+    color: white;
+    background-color: #4f97d5;
+    font-size: 1.25em;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 footer {
     grid-area: footer;
     margin: 20px 0;
