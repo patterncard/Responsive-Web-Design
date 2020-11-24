@@ -18,6 +18,7 @@ header {
 
 nav {
     grid-area: nav;
+    margin: 0 auto;
 }
 
 #login {
@@ -115,7 +116,7 @@ section img {
     
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 10vh 4vh 38vh 38vh 10vh;
+        grid-template-rows: auto 4vh 38vh auto 10vh;
         grid-gap: 15px;
         margin: 0 auto;
     }
@@ -128,6 +129,13 @@ section img {
         "build_apps build_games build-websites"
         "footer footer footer"
     }
+
+    .graphs {
+        font-size: 100px;
+        line-height: 1;
+        margin: 10px 0;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:1100px){
@@ -137,7 +145,7 @@ section img {
     
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 10vh 4vh 25vh 25vh 25vh 10vh;
+        grid-template-rows: auto 4vh auto auto auto 10vh;
         grid-gap: 15px;
         margin: 0 auto;
     }
@@ -190,10 +198,10 @@ section img {
         width: 20%;
     }
 
-    /* .graphs {
+    .graphs {
         font-size: 90px;
         margin: 3% 0 0;
-    } */
+    }
 }
 
 @media screen and (max-width: 500px){
