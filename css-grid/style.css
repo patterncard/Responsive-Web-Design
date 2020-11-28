@@ -109,6 +109,21 @@ section img {
     max-width: 100%;
 }
 
+.btn {
+    display: inline-block;
+    background: #3498db;
+    border-radius: 28px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.btn:hover {
+    background-color: #3cb0fd;
+}
+
 @media screen and (min-width:1100px){
     main {
         width: 90%;
@@ -116,7 +131,7 @@ section img {
     
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto 4vh 38vh auto 10vh;
+        grid-template-rows: auto 4vh auto auto 10vh;
         grid-gap: 15px;
         margin: 0 auto;
     }
@@ -135,6 +150,11 @@ section img {
         line-height: 1;
         margin: 10px 0;
         text-align: center;
+    }
+
+    div {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 }
 
@@ -202,6 +222,11 @@ section img {
         font-size: 90px;
         margin: 3% 0 0;
     }
+
+    div {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -211,7 +236,7 @@ section img {
     
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 10vh 6vh 14vh 14vh 14vh 14vh 14vh 14vh 5vh;
+        grid-template-rows: auto auto auto auto auto auto auto auto 20vh;
         grid-gap: 15px;
         margin: 0 auto;
     }
@@ -251,5 +276,10 @@ section img {
 
     footer {
         margin-bottom: 100px;
+    }
+
+    div {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
 }
