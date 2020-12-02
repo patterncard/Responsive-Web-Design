@@ -39,6 +39,13 @@
                 text-align: center;
             }
 
+            #right-column fieldset p {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
             @media(max-width: 900px){
                 #formwrapper {
                     flex-direction: column;
@@ -67,6 +74,18 @@
                 <section id="left-column">
                     <fieldset>
                         <legend>Block One</legend>
+                        <p>
+                            <input id="firstname" name="fistname" type="text" placeholder="First Name">
+                            <input id="lastname" name="lastname" type="text" placeholder="Last Name">
+                            <input id="email" name="email" type="email" placeholder="email@somewhere.com">
+                            <input id="url" name="url" type="url" placeholder="URL">
+                        </p>
+                        <p>
+                            <label for="username">Username: </label>
+                            <input id="username" name="username" type="text">
+                            <label for="password">Password: </label>
+                            <input id="password" name="v" type="password">
+                        </p>
                     </fieldset>
                     <fieldset>
                         <legend>Block Two</legend>
@@ -75,11 +94,28 @@
                 <section id="right-column">
                     <fieldset>
                         <legend>Block Tree</legend>
+                        <p>
+                            <span><input type="radio" name="color" value="red" checked>Red</span>
+                            <span><input type="radio" name="color" value="green">Green</span>
+                            <span><input type="radio" name="color" value="blue">Blue</span>
+                            <span><input type="radio" name="color" value="cyan">Cyan</span>
+                            <span><input type="radio" name="color" value="magenta">Magenta</span>
+                            <span><input type="radio" name="color" value="yellow">Yellow</span>
+                        </p>
+                        <p>
+                            <span><input type="checkbox" name="fruit" value="apple">Apple</span>
+                            <span><input type="checkbox" name="fruit" value="orange">Orange</span>
+                            <span><input type="checkbox" name="fruit" value="banana">Banana</span>
+                            <span><input type="checkbox" name="fruit" value="peach">Peach</span>
+                            <span><input type="checkbox" name="fruit" value="pear">Pear</span>
+                        </p>
                     </fieldset>
                     <fieldset>
                         <legend>Block Four</legend>
                         <textarea name="" id="" cols="40" rows="4" placeholder="What did you do today?"></textarea>
-                        <input type="submit" value="Submit">             
+                        <p>
+                            <input type="submit" value="Submit">
+                        </p>             
                     </fieldset>
                 </section>   
             </form>
